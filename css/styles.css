@@ -1,0 +1,11 @@
+/*GLOBAL*/
+
+/*LAYOUT*/
+.page-width {
+  max-width: 1140px;
+  margin: 10px auto;
+}
+/*SPECIFIC ELEMENTS*/
+#content {
+  margin-top: 12px;
+}
