@@ -11,7 +11,6 @@
 
 <h4>Week 1</h4>
 <ul>
-  <li>Getting setup</li>
   <li>Docker Setup</li>
   <li>Gitlab Workflow</li>
   <li>Learning some simple Ruby</li>
