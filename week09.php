@@ -4,7 +4,41 @@
 ?>
 
 <?php include 'partials/header.php'; ?>
-  
-<p>Fugit nihil sit nemo quo numquam quisquam voluptas sunt quam eius. Tempora consequatur quam nihil unde veniam veritatis ut aspernatur est nisi modi ullam voluptatem ipsa quia quaerat. Fugiat eius eos dicta, adipisci dolores quisquam illum beatae voluptatem ex dolore. Ipsum sit quaerat qui, minima enim quam amet nihil odit enim quae dolor ut consequatur ratione voluptatem qui voluptatem unde. Sunt illum ipsum suscipit doloremque numquam qui magnam velit sit et aut quo veritatis, quaerat ex. Et ipsa magni dicta porro tempora ullam fugit dolorem exercitationem veritatis labore eum dolore architecto, aspernatur. Nulla laboriosam ut eos ut ut qui incidunt voluptate quam doloremque magnam quis fugiat dolorem totam sequi.</p>
+
+<h2>Testing</h2>
+
+
+<div class="columns">
+  <div class="column col-6">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title"><h5>Required Reading</h5></div>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            <a href="https://hackernoon.com/how-i-learned-to-stop-worrying-and-love-tdd-ea22b7b7fcaa">Short and sweet about TDD</a>
+            <a href="https://medium.freecodecamp.org/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2">Long bonus read about TDD</a>
+            <a href="https://guides.rubyonrails.org/testing.html">https://guides.rubyonrails.org/testing.html</a>
+          </li>
+        </ul>
+      </div>
+      <div class="panel-footer"></div>
+    </div>
+  </div>
+  <div class="column col-6">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title"><h5>Weekly Assignment</h5></div>
+      </div>
+      <div class="panel-body">
+        None this week :)
+      </div>
+      <div class="panel-footer"></div>
+    </div>
+  </div>
+</div>
 
 <?php include 'partials/footer.php'; ?>
+
+

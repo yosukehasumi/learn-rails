@@ -17,39 +17,33 @@
 
 <p>Just download the app and install it. Installation is simple but may require your computers root password. Also if you want to access a repo containing a library of different pre-configured and ready-to-install environments you'll need to create an account with Docker.</p>
 
-<p>There is an nice image already created for us at <a href="https://github.com/yosukehasumi/docker-rails-mysql">https://github.com/nooptr/docker-rails-mysql</a> (blantantly stolen from <a href="https://github.com/nooptr/docker-rails-mysql">https://github.com/nooptr/docker-rails-mysql</a>.</p>
+<p>I've created a simple script that will create everything necessary for this course, simply follow the instructions at <a href="https://github.com/yosukehasumi/docker-rails-mysql">https://github.com/yosukehasumi/docker-rails-mysql</a></p>
 
-<ol>
-  <li>Download the zip file: <a href="https://github.com/yosukehasumi/docker-rails-mysql/archive/master.zip">https://github.com/yosukehasumi/docker-rails-mysql/archive/master.zip</a></li>
-  <li>Unzip the file in the location you'd like to create your application</li>
-  <li>Generate the skeleton application: <code>docker-compose run app rails new . --force --database=mysql --skip-bundle</code></li>
-  <li>Now build the created image: <code>docker-compose build</code></li>
-  <li>Replace the contents of <code>database.yml</code>:
-<pre class="code"><code>default: &default
-  adapter: mysql2
-  encoding: utf8
-  pool: 5
-  username: root
-  password: "root"
-  host: mysql
+<p>Some Docker Tips:</p>
 
-development:
-  <<: *default
-  database: dev
-
-test:
-  <<: *default
-  database: dev
-</code></pre>
-  </li>
-  <li>Boot the application: <code>docker-compose up -d</code></li>
-  <li>Create the database: <code>docker-compose run app rake db:create</code></li>
-  <li>Start/stop the application using: <code>docker-compose start</code>/<code>docker-compose stop</code></li>
-</ol>
+<p>
+  <ol>
+    <li><code>docker exec -it img240 /bin/bash</code> To open a terminal on your docker virtual machine</li>
+    <li><code>docker-compose up -d</code> Initialize a virtual machine if you haven't done this before</li>
+    <li><code>docker container ls</code> Will show your running virtual machines</li>
+    <li><code>docker-compose stop</code> Will stop your virtual machine</li>
+    <li><code>docker-compose start</code> Will start your virtual machine</li>
+  </ol>
+</p>
 
 <strong>Web</strong>
 
 <p>You should now see your app running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+
+<strong>Start Your Docker Container</strong>
+
+<p>start your docker container by typing: <code>docker-compose up -d</code> where your <code>docker-compose.yml</code> file is located</p>
+
+<strong>Log into the Docker Container</strong>
+
+<p>If you need to get a command line prompt inside your container run <code>docker exec -it img240 /bin/bash</code>.</p>
+
+<p>You can run <code>IRB</code> inside your docker container by simply typing <code>irb</code></p>
 
 <strong>Rails Console</strong>
 
@@ -79,6 +73,14 @@ port: 3306
 <p>Installation is simple (<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>)</p>
 
 <p>We will be using GitLab to share, collaborate, and post assignments so make sure you have a <a href="https://gitlab.com/">GitLab</a> account</p>
+
+<h2>Adding SSH keys to Gitlab</h2>
+
+<ul>
+  <li>Copy your private ssh key from your host computer to the docker workspace <code>cp ~/.ssh/id_rsa YOUR/DOCKER/WORKSPACE</code></li>
+  <li>Move your private ssh key from your docker workspace to the docker user's ssh directory <code>mv /workspace/id_rsa ~/.ssh/</code></li>
+  <li>Copy your key to Gitlab by opening up your public key in a text editor, select the entire string and paste it into the text area here <a href="https://gitlab.com/profile/keys">https://gitlab.com/profile/keys</a></li>
+</ul>
 
 <h2>Ruby</h2>
 

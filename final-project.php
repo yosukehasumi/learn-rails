@@ -46,6 +46,7 @@
   <li>Use partials where appropriate.</li>
   <li>Have links that execute via Javascript, but degrade gracefully to a full request.</li>
   <li>Use helpers for any view code that isn't extremely simple.</li>
+  <li>Have at least one CRUD form.</li>
 </ul>
 
 <h4>Front End</h4>

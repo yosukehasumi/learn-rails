@@ -7,7 +7,8 @@
 
 <h2>Overview</h2>
 
-<p>This course will cover new and emerging technologies that have a profound impact on development of web applications. The current offering of this course will focus on Ruby programming language and Ruby on Rails framework for agile development of web applications. Students will learn to design and implement web server applications with Model-View-Controller architecture using components of Ruby on Rails including Active Record, Action Controller, and Action View. GIT software version control system will be used. Other selected emerging web development technologies may also be explored.</p>
+<p>This course will cover new and emerging technologies that have a profound impact on development of web applications. The current offering of this course will focus on Ruby programming language and Ruby on Rails framework for agile development of web applications. Students will learn to design and implement web server applications with Model-View-Controller architecture using components of Ruby on Rails including Active Record, Action Controller, and Action View. GIT software version control system will be used. Other selected emerging web development technologies may also be explored.<br/><small>* This outline is just a guide. It is subject to change</small></p>
+
 
 <h4>Week 1</h4>
 <ul>
@@ -21,7 +22,6 @@
 
 <h4>Week 2</h4>
 <ul>
-  <li>Quiz: Git workflow</li>
   <li>Intro to Object Oriented Programming</li>
   <li>Creating custom objects</li>
   <li>Assignment: Creating a simple model</li>
@@ -29,17 +29,15 @@
 
 <h4>Week 3</h4>
 <ul>
-  <li>Quiz: Object Oriented Programming</li>
   <li>Intro to Rails</li>
   <li>MVC (Model-View-Controller)</li>
   <li>Intro to Rails Data</li>
   <li>Bundler & Gems</li>
-  <li>Assignment: Start a rails project from scratch that has at least one model, one controller, one view, and one migration</li>  
+  <li>Assignment: Start a rails project</li>  
 </ul>
 
 <h4>Week 4</h4>
 <ul>
-  <li>Quiz: MVC</li>
   <li>Intro to building Rails CRUDs</li>
   <li>Intro to Routes</li>
   <li>Check-in and feedback</li>
@@ -48,7 +46,6 @@
 
 <h4>Week 5</h4>
 <ul>
-  <li>Quiz: CRUD</li>
   <li>Validations</li>
   <li>Testing</li>
   <li>Flash Messages</li>
@@ -58,7 +55,6 @@
 
 <h4>Week 6</h4>
 <ul>
-  <li>Quiz: Testing and Validations</li>
   <li>DRY (Don't Repeat Yourself)</li>
   <li>Better controllers</li>
   <li>Error handling</li>
@@ -68,7 +64,6 @@
 
 <h4>Week 7</h4>
 <ul>
-  <li>Quiz: none</li>
   <li>Asset pipeline</li>
   <li>Javascript</li>
   <li>SCSS, Sass, CSS</li>
@@ -79,7 +74,6 @@
 
 <h4>Week 8</h4>
 <ul>
-  <li>Quiz: Debugging quiz</li>
   <li>Authentication</li>
   <li>Scoped controllers and user accounts</li>
   <li>Assignment: Implement authentication into a Rails application</li>  
@@ -87,7 +81,6 @@
 
 <h4>Week 9</h4>
 <ul>
-  <li>Quiz: Authentication</li>
   <li>Deployment</li>
   <li>Heroku</li>
   <li>ENV variables</li>
@@ -96,7 +89,6 @@
 
 <h4>Week 10</h4>
 <ul>
-  <li>Quiz: Stack Errors</li>
   <li>Rails Images and S3</li>
   <li>Amazon S3</li>
   <li>Using third-party apps</li>
@@ -106,7 +98,6 @@
 
 <h4>Week 11 +</h4>
 <ul>
-  <li>Quiz: none</li>
   <li>Security</li>
   <li>Project Work and development</li>
 </ul>

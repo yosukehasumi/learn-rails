@@ -1,9 +1,11 @@
 <?php
-  $title = "Week 12";
-  $subtitle = "Awwww Yeah, Let's go!";
+  $title = "Week 13";
+  $subtitle = "Wrapping it up, let's see what you've got";
 ?>
 
 <?php include 'partials/header.php'; ?>
+
+<p>Final Due Presentation Week</p>
 
 <div class="columns">
   <div class="column col-6">
@@ -30,5 +32,3 @@
 </div>
 
 <?php include 'partials/footer.php'; ?>
-
-

@@ -26,18 +26,44 @@
 <table class="table">
   <tbody>
     <tr>
-      <td>In-class Assignments, Quizzes and Presentations</td>
+      <td>Course Project (Final Project)</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>Quizzes</td>
       <td>20%</td>
     </tr>
     <tr>
-      <td>Take Home Assignments</td>
+      <td>Assignments</td>
       <td>20%</td>
     </tr>
     <tr>
-      <td>Final Project</td>
-      <td>40%</td>
+      <td>Mid Term (Midterm Project)</td>
+      <td>20%</td>
     </tr>
+    <tr>
+      <td>Final Exam (Final Project)</td>
+      <td>30%</td>
+    </tr>
+
   </tbody>
 </table>
 
+
+<br/><br/><br/>
+
+<h2>Resources</h2>
+<ul>
+  <li><strong>Expanded hours for the library</strong>, counselling, cafeteria and security on the CR and CV campuses. (Library hours at <a href="https://libguides.nic.bc.ca/AboutUs/Hours)">https://libguides.nic.bc.ca/AboutUs/Hours)</a></li>
+  <li><strong>Writing Support</strong> - 1 additional faculty FTE in the Library & Learning Commons on the CR, CV & PA campuses.  Writing support provides students with formative feedback on classwork <a href="https://libguides.nic.bc.ca/WritingSupport">https://libguides.nic.bc.ca/WritingSupport</a></li>
+  <li><strong>Math Support</strong> - Additional faculty in the Library & Learning Commons at CR , CV and PA campuses for math support <a href="https://libguides.nic.bc.ca/MathSupport">https://libguides.nic.bc.ca/MathSupport</a></li>
+  <li><strong>Global Learning Facilitator</strong>  - Margaret Hearnden .75 position.  Our GLF’s role is to support faculty on the major aspects of intercultural competencies and class delivery.  GLF is available to co-teach on learning objectives related to intercultural topics, review assignment and exam wording, and to assist in the addition of intercultural content into curriculum.</li>
+  <li><strong>Peer tutoring</strong> is available at all campuses and can be booked by students on-line from the <a href="https://libguides.nic.bc.ca/PeerTutoring">https://libguides.nic.bc.ca/PeerTutoring</a></li>
+  <li><strong>Student Employment Services</strong> – Additional 1 FTE Student Employment Advisor has been added to CR & CV campuses.</li>
+  <li><strong>Student Technical Services</strong> are available to support students with technology such as Blackboard LEARN, myNIC and more.  <a href="https://libguides.nic.bc.ca/StudentTech">https://libguides.nic.bc.ca/StudentTech</a></li>
+  <li><strong>Library instruction</strong>: Focuses on providing students with information literacy skills. These skills lead to the students’ ability to "recognize when information is needed and have the ability to locate, evaluate, and use effectively the needed information" (ACRL Information Literacy Competency Standards for Higher Education).  You can find these supports here: <a href="https://libguides.nic.bc.ca/faculty .">https://libguides.nic.bc.ca/faculty .</a></li>
+  <li><strong>Research Help</strong> is available in person, by telephone, by email and chat. An online Research tutorial can be found at <a href="https://libguides.nic.bc.ca/c.php?g=510722&p=5015743">https://libguides.nic.bc.ca/c.php?g=510722&p=5015743</a></li>
+  </ul>
+
 <?php include 'partials/footer.php'; ?>
+
