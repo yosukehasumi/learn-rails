@@ -44,7 +44,6 @@
 <ul>
   <li>Display <code>flash</code> messages.</li>
   <li>Use partials where appropriate.</li>
-  <li>Have links that execute via Javascript, but degrade gracefully to a full request.</li>
   <li>Use helpers for any view code that isn't extremely simple.</li>
   <li>Have at least one CRUD form.</li>
 </ul>
@@ -71,7 +70,6 @@
 <ul>
   <li>Allow user sign ups and sign ins - signed in users should have access to personalized content.</li>
   <li>Use at least one gem that doesn’t come with Rails.</li>
-  <li>Have at least one background job.</li>
   <li>Integrate with at least one external API – somewhere you either push data, or pull data, or both.</li>
   <li>Make your app deploy successfully to Heroku. Document the steps required in your README file.</li>
 </ul>
@@ -79,7 +77,6 @@
 <h4>Style Guidelines</h4>
 
 <ul>
-  <li>Don’t use <code>return</code>, <code>true</code> or <code>false</code> unless you need to.</li>
   <li>Use modern Ruby syntax for hashes (e.g. <code>key: 'value'</code> instead of <code>:key => 'value'</code>) whenever possible.</li>
   <li>Indent your code with two spaces. Make sure your indenting is appropriate. Don't have more than one blank line between blocks of code.</li>
   <li>Make all your methods short and with descriptive names.</li>

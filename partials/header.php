@@ -79,11 +79,11 @@
               <a href="week10.php" class="<?php echo menuKlass('week10') ?>"><i class="icon icon-more-vert"></i> Week 10 <small>MAR 19</small></a>
             </li>
 
-            <!--
-
             <li class="menu-item">
               <a href="week11.php" class="<?php echo menuKlass('week11') ?>"><i class="icon icon-more-vert"></i> Week 11 <small>MAR 26</small></a>
             </li>
+
+            <!--
 
             <li class="menu-item">
               <a href="week12.php" class="<?php echo menuKlass('week12') ?>"><i class="icon icon-more-vert"></i> Week 12 <small>APR 2</small></a>

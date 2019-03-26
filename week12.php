@@ -5,6 +5,12 @@
 
 <?php include 'partials/header.php'; ?>
 
+<li>Images with active storage</li>
+<li>Have at least one background job.</li>
+
+
+
+
 <div class="columns">
   <div class="column col-6">
     <div class="panel">
@@ -12,7 +18,7 @@
         <div class="panel-title"><h5>Required Reading</h5></div>
       </div>
       <div class="panel-body">
-        
+
       </div>
       <div class="panel-footer"></div>
     </div>
